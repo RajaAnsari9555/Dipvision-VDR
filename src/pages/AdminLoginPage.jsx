@@ -123,21 +123,21 @@ export default function AdminLoginPage() {
             {/* Forgot password */}
             <div className="text-right">
               <Link
-                to="/reset-password"
+                to="/"
                 className="text-xs text-[#1e3a8a] hover:underline"
               >
                 Forgot Password?
               </Link>
             </div>
           </form>
-
-          {/* Switch to Partner Login */}
           <p className="mt-8 text-center text-xs text-slate-400">
-            Are you a Partner?{' '}
+            Are you an Admin?{' '}
             <Link to="/partner-login" className="text-[#1e3a8a] font-semibold hover:underline">
-              Partner Login
+              Partner login
             </Link>
           </p>
+         
+         
         </div>
       </div>
     </div>

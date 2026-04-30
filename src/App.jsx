@@ -1,7 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import PartnerLoginPage from './pages/PartnerLoginPage';
 import AdminLoginPage from './pages/AdminLoginPage';
-import SuperAdminLoginPage from './pages/SuperAdminLoginPage';
+
 import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import ResetPasswordPage from './pages/ResetPasswordPage';
 import DashboardApp from './pages/DashboardApp';
@@ -29,7 +29,7 @@ export default function App() {
       {/* Auth routes — full screen, no shell */}
       <Route path="/partner-login"      element={<PartnerLoginPage />} />
       <Route path="/admin-login"        element={<AdminLoginPage />} />
-      <Route path="/super-admin-login"  element={<SuperAdminLoginPage />} />
+
       <Route path="/forgot-password"  element={<ForgotPasswordPage />} />
       <Route path="/reset-password"   element={<ResetPasswordPage />} />
 
